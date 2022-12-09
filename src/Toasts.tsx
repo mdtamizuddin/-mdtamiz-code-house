@@ -3,6 +3,7 @@ export interface ToastProps {
     title: String;
     desc: String;
 }
+
 export function Toast({ title, desc }: ToastProps) {
     return (
         <div>
